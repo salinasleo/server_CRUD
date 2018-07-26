@@ -15,11 +15,7 @@ server_1.listen(PORT_1, function() {
 });
 
 console.log(`max listeners on ${PORT_1} is: ${server_1.getMaxListeners()}`);
-console.log(`address of ${PORT_1} is: ${server_1.address().AddressInfo}`);
 console.log(`max listeners on ${PORT_2} is: ${server_2.getMaxListeners()}`);
-console.log(`address of ${PORT_2} is: ${server_2.address()}`);
-
-
 
 
 server_2.listen(PORT_2, function() {
